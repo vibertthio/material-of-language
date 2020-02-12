@@ -1,0 +1,799 @@
+[D 18:04:15.027 NotebookApp] Searching ['/Users/vibertthio/Documents/itp/MoL', '/Users/vibertthio/.jupyter', '/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 18:04:15.028 NotebookApp] Looking for jupyter_config in /etc/jupyter
+[D 18:04:15.028 NotebookApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 18:04:15.028 NotebookApp] Looking for jupyter_config in /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter
+[D 18:04:15.029 NotebookApp] Looking for jupyter_config in /Users/vibertthio/.jupyter
+[D 18:04:15.029 NotebookApp] Looking for jupyter_config in /Users/vibertthio/Documents/itp/MoL
+[D 18:04:15.030 NotebookApp] Looking for jupyter_notebook_config in /etc/jupyter
+[D 18:04:15.030 NotebookApp] Looking for jupyter_notebook_config in /usr/local/etc/jupyter
+[D 18:04:15.030 NotebookApp] Looking for jupyter_notebook_config in /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter
+[D 18:04:15.031 NotebookApp] Looking for jupyter_notebook_config in /Users/vibertthio/.jupyter
+[D 18:04:15.031 NotebookApp] Loaded config file: /Users/vibertthio/.jupyter/jupyter_notebook_config.py
+[D 18:04:15.033 NotebookApp] Loaded config file: /Users/vibertthio/.jupyter/jupyter_notebook_config.json
+[D 18:04:15.033 NotebookApp] Looking for jupyter_notebook_config in /Users/vibertthio/Documents/itp/MoL
+[D 18:04:16.420 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 18:04:16.421 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 18:04:16.421 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/jupyter_notebook_config.json
+[D 18:04:16.422 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/Users/vibertthio/.jupyter/jupyter_notebook_config.json
+[I 18:04:16.422 NotebookApp] Serving notebooks from local directory: /Users/vibertthio/Documents/itp/MoL
+[I 18:04:16.422 NotebookApp] The Jupyter Notebook is running at:
+[I 18:04:16.422 NotebookApp] http://localhost:8888/
+[I 18:04:16.422 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[D 18:04:17.807 NotebookApp] Using contents: services/contents
+[D 18:04:17.867 NotebookApp] Path base/images/favicon.ico served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/base/images/favicon.ico
+[D 18:04:17.868 NotebookApp] Path components/jquery-ui/themes/smoothness/jquery-ui.min.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css
+[D 18:04:17.869 NotebookApp] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[D 18:04:17.870 NotebookApp] Path style/style.min.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/style/style.min.css
+[D 18:04:17.871 NotebookApp] Path components/es6-promise/promise.min.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/es6-promise/promise.min.js
+[D 18:04:17.872 NotebookApp] Path components/preact/index.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/preact/index.js
+[D 18:04:17.872 NotebookApp] Path components/proptypes/index.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/proptypes/index.js
+[D 18:04:17.873 NotebookApp] Path components/preact-compat/index.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/preact-compat/index.js
+[D 18:04:17.873 NotebookApp] Path components/requirejs/require.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/requirejs/require.js
+[D 18:04:17.874 NotebookApp] Path base/images/logo.png served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/base/images/logo.png
+[D 18:04:17.875 NotebookApp] Path tree/js/main.min.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/tree/js/main.min.js
+[D 18:04:17.881 NotebookApp] 200 GET /tree (::1) 76.52ms
+[D 18:04:17.958 NotebookApp] 200 GET /static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=3c2a865c832a1322285c55c6ed99abb2 (::1) 2.86ms
+[D 18:04:17.967 NotebookApp] 200 GET /static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56 (::1) 6.62ms
+[D 18:04:17.968 NotebookApp] 200 GET /static/style/style.min.css?v=56cad67b8b1ff3ed9b48850e9efcffb3 (::1) 7.43ms
+[D 18:04:17.969 NotebookApp] Path custom.css served from /Users/vibertthio/.jupyter/custom/custom.css
+[D 18:04:17.971 NotebookApp] 200 GET /custom/custom.css (::1) 9.03ms
+[D 18:04:17.972 NotebookApp] 200 GET /static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe (::1) 8.78ms
+[D 18:04:17.973 NotebookApp] 200 GET /static/components/preact/index.js?v=00a2fac73c670ce39ac53d26640eb542 (::1) 8.91ms
+[D 18:04:17.974 NotebookApp] 200 GET /static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604 (::1) 9.03ms
+[D 18:04:17.981 NotebookApp] 200 GET /static/components/preact-compat/index.js?v=aea8f6660e54b18ace8d84a9b9654c1c (::1) 5.57ms
+[D 18:04:17.982 NotebookApp] 200 GET /static/components/requirejs/require.js?v=951f856e81496aaeec2e71a1c2c0d51f (::1) 5.16ms
+[D 18:04:17.986 NotebookApp] 200 GET /static/base/images/logo.png?v=641991992878ee24c6f3826e81054a0f (::1) 6.11ms
+[D 18:04:17.996 NotebookApp] 200 GET /static/tree/js/main.min.js?v=255071046c54ea22f16c5bbbdcb5fca8 (::1) 18.08ms
+[D 18:04:18.859 NotebookApp] Path services/contents.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/services/contents.js
+[D 18:04:18.860 NotebookApp] 200 GET /static/services/contents.js?v=20200211180415 (::1) 1.50ms
+[D 18:04:18.919 NotebookApp] Path fonts/pt-sans-regular.ttf served from /Users/vibertthio/.jupyter/custom/fonts/pt-sans-regular.ttf
+[D 18:04:18.923 NotebookApp] 200 GET /custom/fonts/pt-sans-regular.ttf (::1) 5.17ms
+[D 18:04:18.932 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 18:04:18.932 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 18:04:18.933 NotebookApp] Paths used for configuration of tree: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/tree.json
+[D 18:04:18.934 NotebookApp] Paths used for configuration of tree: 
+    	/Users/vibertthio/.jupyter/nbconfig/tree.json
+[D 18:04:18.934 NotebookApp] 200 GET /api/config/tree?_=1581462258225 (::1) 3.88ms
+[D 18:04:18.936 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 18:04:18.936 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 18:04:18.937 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/common.json
+[D 18:04:18.937 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.jupyter/nbconfig/common.json
+[D 18:04:18.937 NotebookApp] 200 GET /api/config/common?_=1581462258226 (::1) 2.76ms
+[D 18:04:18.939 NotebookApp] 200 GET /api/terminals?_=1581462258227 (::1) 0.83ms
+[D 18:04:18.943 NotebookApp] Found kernel python3 in /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/share/jupyter/kernels
+[D 18:04:18.948 NotebookApp] 200 GET /api/kernelspecs (::1) 6.81ms
+[D 18:04:18.951 NotebookApp] 200 GET /api/sessions?_=1581462258228 (::1) 1.75ms
+[D 18:04:18.952 NotebookApp] 200 GET /api/terminals?_=1581462258229 (::1) 1.00ms
+[D 18:04:18.975 NotebookApp] Path components/font-awesome/fonts/fontawesome-webfont.woff2 served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/font-awesome/fonts/fontawesome-webfont.woff2
+[D 18:04:18.977 NotebookApp] 200 GET /static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (::1) 2.87ms
+[D 18:04:18.979 NotebookApp] Path custom.js served from /Users/vibertthio/.jupyter/custom/custom.js
+[D 18:04:18.980 NotebookApp] 200 GET /custom/custom.js?v=20200211180415 (::1) 1.62ms
+[D 18:04:18.992 NotebookApp] 200 GET /api/contents?type=directory&_=1581462258230 (::1) 3.15ms
+[D 18:04:36.530 NotebookApp] 200 GET /api/sessions?_=1581462258231 (::1) 1.34ms
+[D 18:04:36.531 NotebookApp] 200 GET /api/terminals?_=1581462258232 (::1) 0.99ms
+[D 18:04:36.546 NotebookApp] 200 GET /api/contents?type=directory&_=1581462258233 (::1) 3.04ms
+[D 18:04:53.172 NotebookApp] 200 GET /api/sessions?_=1581462258234 (::1) 1.51ms
+[D 18:04:53.179 NotebookApp] 200 GET /api/terminals?_=1581462258235 (::1) 1.43ms
+[D 18:04:53.197 NotebookApp] 200 GET /api/contents?type=directory&_=1581462258236 (::1) 3.19ms
+[D 18:05:04.859 NotebookApp] 200 GET /api/sessions?_=1581462258237 (::1) 1.45ms
+[D 18:05:04.861 NotebookApp] 200 GET /api/terminals?_=1581462258238 (::1) 1.19ms
+[D 18:05:04.871 NotebookApp] 200 GET /api/contents?type=directory&_=1581462258239 (::1) 3.29ms
+[D 18:05:26.750 NotebookApp] 200 GET /api/sessions?_=1581462258240 (::1) 0.92ms
+[D 18:05:26.751 NotebookApp] 200 GET /api/terminals?_=1581462258241 (::1) 1.07ms
+[D 18:05:26.758 NotebookApp] 200 GET /api/contents?type=directory&_=1581462258242 (::1) 1.87ms
+[D 18:05:26.867 NotebookApp] Using contents: services/contents
+[D 18:05:26.869 NotebookApp] 304 GET /tree (::1) 2.20ms
+[D 18:05:26.924 NotebookApp] 304 GET /custom/custom.css (::1) 1.90ms
+[D 18:05:27.196 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 18:05:27.197 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 18:05:27.198 NotebookApp] Paths used for configuration of tree: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/tree.json
+[D 18:05:27.198 NotebookApp] Paths used for configuration of tree: 
+    	/Users/vibertthio/.jupyter/nbconfig/tree.json
+[D 18:05:27.199 NotebookApp] 200 GET /api/config/tree?_=1581462327128 (::1) 3.89ms
+[D 18:05:27.201 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 18:05:27.201 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 18:05:27.202 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/common.json
+[D 18:05:27.202 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.jupyter/nbconfig/common.json
+[D 18:05:27.203 NotebookApp] 200 GET /api/config/common?_=1581462327129 (::1) 3.14ms
+[D 18:05:27.204 NotebookApp] 200 GET /api/terminals?_=1581462327130 (::1) 1.16ms
+[D 18:05:27.206 NotebookApp] Found kernel python3 in /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/share/jupyter/kernels
+[D 18:05:27.207 NotebookApp] 304 GET /api/kernelspecs (::1) 2.31ms
+[D 18:05:27.209 NotebookApp] 200 GET /api/terminals?_=1581462327132 (::1) 0.96ms
+[D 18:05:27.211 NotebookApp] 304 GET /custom/fonts/pt-sans-regular.ttf (::1) 1.64ms
+[D 18:05:27.212 NotebookApp] 200 GET /api/sessions?_=1581462327131 (::1) 1.43ms
+[D 18:05:27.228 NotebookApp] 304 GET /custom/custom.js?v=20200211180415 (::1) 1.11ms
+[D 18:05:27.232 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327133 (::1) 1.78ms
+[D 18:05:27.268 NotebookApp] 200 GET /static/base/images/favicon.ico?v=97c6417ed01bdc0ae3ef32ae4894fd03 (::1) 1.27ms
+[D 18:05:27.979 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327134 (::1) 1.80ms
+[I 18:05:30.155 NotebookApp] Creating new notebook in /fb-messages
+[D 18:05:30.157 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:05:30.170 NotebookApp] 201 POST /api/contents/fb-messages (::1) 15.71ms
+[D 18:05:30.186 NotebookApp] Using contents: services/contents
+[D 18:05:30.254 NotebookApp] Path base/images/favicon-notebook.ico served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/base/images/favicon-notebook.ico
+[D 18:05:30.255 NotebookApp] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[D 18:05:30.256 NotebookApp] Path components/codemirror/lib/codemirror.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/codemirror/lib/codemirror.css
+[D 18:05:30.256 NotebookApp] Path notebook/css/override.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/notebook/css/override.css
+[D 18:05:30.444 NotebookApp] Path components/text-encoding/lib/encoding.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/text-encoding/lib/encoding.js
+[D 18:05:30.446 NotebookApp] Path notebook/js/main.min.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/notebook/js/main.min.js
+[D 18:05:30.453 NotebookApp] 200 GET /notebooks/fb-messages/Untitled.ipynb?kernel_name=python3 (::1) 268.53ms
+[D 18:05:30.507 NotebookApp] Path components/MathJax/MathJax.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/MathJax.js
+[D 18:05:30.509 NotebookApp] 200 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (::1) 3.14ms
+[D 18:05:30.513 NotebookApp] 200 GET /static/components/bootstrap-tour/build/css/bootstrap-tour.min.css?v=d0b3c2fce6056a2ddd5a4513762a94c4 (::1) 2.63ms
+[D 18:05:30.514 NotebookApp] 200 GET /static/components/codemirror/lib/codemirror.css?v=288352df06a67ee35003b0981da414ac (::1) 2.94ms
+[D 18:05:30.515 NotebookApp] 200 GET /static/notebook/css/override.css?v=e6f18013b8771987812e992b38ec3318 (::1) 3.05ms
+[D 18:05:30.517 NotebookApp] 304 GET /custom/custom.css (::1) 1.87ms
+[D 18:05:30.523 NotebookApp] 200 GET /static/components/text-encoding/lib/encoding.js?v=d5bb0fc9ffeff7d98a69bb83daa51052 (::1) 1.71ms
+[D 18:05:30.617 NotebookApp] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[D 18:05:30.620 NotebookApp] 200 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.5 (::1) 3.38ms
+[D 18:05:30.624 NotebookApp] 200 GET /static/notebook/js/main.min.js?v=617dbb6b838f3495e90f667d4b1f2fa9 (::1) 105.81ms
+[D 18:05:30.655 NotebookApp] Path components/MathJax/config/Safe.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/config/Safe.js
+[D 18:05:30.655 NotebookApp] 200 GET /static/components/MathJax/config/Safe.js?V=2.7.5 (::1) 1.35ms
+[D 18:05:30.774 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 18:05:30.774 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 18:05:30.775 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/notebook.json
+[D 18:05:30.776 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/vibertthio/.jupyter/nbconfig/notebook.json
+[D 18:05:30.777 NotebookApp] 200 GET /api/config/notebook?_=1581462330686 (::1) 4.12ms
+[D 18:05:30.778 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 18:05:30.779 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 18:05:30.779 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/common.json
+[D 18:05:30.779 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.jupyter/nbconfig/common.json
+[D 18:05:30.780 NotebookApp] 200 GET /api/config/common?_=1581462330687 (::1) 2.58ms
+[D 18:05:30.797 NotebookApp] Path components/MathJax/extensions/MathML/content-mathml.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/extensions/MathML/content-mathml.js
+[D 18:05:30.798 NotebookApp] 200 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.5 (::1) 1.69ms
+[D 18:05:30.818 NotebookApp] Found kernel python3 in /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/share/jupyter/kernels
+[D 18:05:30.819 NotebookApp] 304 GET /api/kernelspecs (::1) 1.96ms
+[D 18:05:30.830 NotebookApp] 304 GET /custom/fonts/pt-sans-regular.ttf (::1) 0.97ms
+[D 18:05:30.846 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?type=notebook&_=1581462330688 (::1) 3.68ms
+[D 18:05:30.852 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/vibertthio/.jupyter/nbconfig/notebook.json
+[D 18:05:30.853 NotebookApp] Paths used for configuration of notebook: 
+    	
+[D 18:05:30.854 NotebookApp] 200 PATCH /api/config/notebook (::1) 3.06ms
+[D 18:05:30.857 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/vibertthio/.jupyter/nbconfig/notebook.json
+[D 18:05:30.857 NotebookApp] Paths used for configuration of notebook: 
+    	
+[D 18:05:30.858 NotebookApp] 200 PATCH /api/config/notebook (::1) 3.05ms
+[D 18:05:30.860 NotebookApp] 304 GET /custom/custom.js?v=20200211180415 (::1) 1.40ms
+[D 18:05:30.871 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[D 18:05:30.872 NotebookApp] 200 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.5 (::1) 2.46ms
+[D 18:05:30.972 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb/checkpoints?_=1581462330689 (::1) 1.69ms
+[D 18:05:30.974 NotebookApp] Path jupyter-js-widgets/extension.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+[D 18:05:31.033 NotebookApp] Starting kernel: ['/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/vibertthio/Library/Jupyter/runtime/kernel-627461f9-3597-4c4e-9feb-6a2aeb688031.json']
+[D 18:05:31.037 NotebookApp] Connecting to: tcp://127.0.0.1:57476
+[D 18:05:31.044 NotebookApp] Connecting to: tcp://127.0.0.1:57474
+[I 18:05:31.046 NotebookApp] Kernel started: 627461f9-3597-4c4e-9feb-6a2aeb688031
+[D 18:05:31.046 NotebookApp] Kernel args: {'kernel_name': 'python3', 'cwd': '/Users/vibertthio/Documents/itp/MoL/fb-messages'}
+[D 18:05:31.047 NotebookApp] 201 POST /api/sessions (::1) 55.17ms
+[D 18:05:31.054 NotebookApp] Serving kernel resource from: /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/share/jupyter/kernels/python3
+[D 18:05:31.055 NotebookApp] 200 GET /kernelspecs/python3/logo-64x64.png (::1) 6.47ms
+[D 18:05:31.056 NotebookApp] Path components/MathJax/extensions/Safe.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/extensions/Safe.js
+[D 18:05:31.057 NotebookApp] 200 GET /static/components/MathJax/extensions/Safe.js?V=2.7.5 (::1) 7.89ms
+[D 18:05:31.058 NotebookApp] Path fonts/roboto.ttf served from /Users/vibertthio/.jupyter/custom/fonts/roboto.ttf
+[D 18:05:31.062 NotebookApp] 200 GET /custom/fonts/roboto.ttf (::1) 12.10ms
+[D 18:05:31.064 NotebookApp] Initializing websocket connection /api/kernels/627461f9-3597-4c4e-9feb-6a2aeb688031/channels
+[D 18:05:31.067 NotebookApp] 200 GET /nbextensions/jupyter-js-widgets/extension.js?v=20200211180415 (::1) 94.14ms
+[D 18:05:31.068 NotebookApp] Requesting kernel info from 627461f9-3597-4c4e-9feb-6a2aeb688031
+[D 18:05:31.068 NotebookApp] Connecting to: tcp://127.0.0.1:57473
+[D 18:05:31.202 NotebookApp] 200 GET /static/base/images/favicon-notebook.ico?v=9e5fb7f8501d94094806320e718be6b3 (::1) 1.06ms
+[D 18:05:32.060 NotebookApp] Path base/images/favicon-busy-1.ico served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/base/images/favicon-busy-1.ico
+[D 18:05:32.061 NotebookApp] 200 GET /static/base/images/favicon-busy-1.ico (::1) 2.05ms
+[D 18:05:32.665 NotebookApp] Received kernel info: {'status': 'ok', 'protocol_version': '5.1', 'implementation': 'ipython', 'implementation_version': '7.5.0', 'language_info': {'name': 'python', 'version': '3.6.6', 'mimetype': 'text/x-python', 'codemirror_mode': {'name': 'ipython', 'version': 3}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py'}, 'banner': "Python 3.6.6 (default, Oct  2 2018, 11:42:27) \nType 'copyright', 'credits' or 'license' for more information\nIPython 7.5.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'help_links': [{'text': 'Python Reference', 'url': 'https://docs.python.org/3.6'}, {'text': 'IPython Reference', 'url': 'https://ipython.org/documentation.html'}, {'text': 'NumPy Reference', 'url': 'https://docs.scipy.org/doc/numpy/reference/'}, {'text': 'SciPy Reference', 'url': 'https://docs.scipy.org/doc/scipy/reference/'}, {'text': 'Matplotlib Reference', 'url': 'https://matplotlib.org/contents.html'}, {'text': 'SymPy Reference', 'url': 'http://docs.sympy.org/latest/index.html'}, {'text': 'pandas Reference', 'url': 'https://pandas.pydata.org/pandas-docs/stable/'}]}
+[I 18:05:32.665 NotebookApp] Adapting to protocol v5.1 for kernel 627461f9-3597-4c4e-9feb-6a2aeb688031
+[D 18:05:32.666 NotebookApp] 101 GET /api/kernels/627461f9-3597-4c4e-9feb-6a2aeb688031/channels?session_id=a0142c04d5124f31b4618fab82e8998e (::1) 1601.87ms
+[D 18:05:32.666 NotebookApp] Opening websocket /api/kernels/627461f9-3597-4c4e-9feb-6a2aeb688031/channels
+[D 18:05:32.666 NotebookApp] Getting buffer for 627461f9-3597-4c4e-9feb-6a2aeb688031
+[D 18:05:32.666 NotebookApp] Connecting to: tcp://127.0.0.1:57473
+[D 18:05:32.667 NotebookApp] Connecting to: tcp://127.0.0.1:57474
+[D 18:05:32.667 NotebookApp] Connecting to: tcp://127.0.0.1:57475
+[D 18:06:05.484 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:06:05.485 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:06:06.199 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:06:06.201 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:06:11.667 NotebookApp] 200 GET /api/sessions?_=1581462327135 (::1) 1.22ms
+[D 18:06:11.669 NotebookApp] 200 GET /api/terminals?_=1581462327136 (::1) 1.20ms
+[D 18:06:11.682 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327137 (::1) 3.43ms
+[D 18:06:17.912 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:06:17.913 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:06:17.914 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:06:17.914 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:19.043 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:19.044 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:07:19.046 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:07:19.048 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:27.342 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:27.343 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:07:27.545 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:07:27.663 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:07:27.665 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:30.969 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330690 (::1) 1.36ms
+[I 18:07:30.979 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:07:30.979 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:07:30.997 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 19.69ms
+[D 18:07:41.107 NotebookApp] Path fonts/roboto-italic.ttf served from /Users/vibertthio/.jupyter/custom/fonts/roboto-italic.ttf
+[D 18:07:41.109 NotebookApp] 200 GET /custom/fonts/roboto-italic.ttf (::1) 2.05ms
+[D 18:07:55.301 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:07:55.302 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:07:55.502 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:07:55.596 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:07:55.597 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:08:08.127 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330691 (::1) 1.13ms
+[I 18:08:08.135 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:08:08.135 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:08:08.144 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 9.58ms
+[D 18:08:08.154 NotebookApp] 201 POST /api/contents/fb-messages/Untitled.ipynb/checkpoints (::1) 1.79ms
+[D 18:08:08.886 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:08:08.889 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:08:09.086 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:08:09.288 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:08:09.413 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:08:09.414 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:09:30.950 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330692 (::1) 1.32ms
+[I 18:09:30.959 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:09:30.959 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:09:30.970 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 12.65ms
+[D 18:09:41.810 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:09:41.811 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:09:41.817 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:09:41.818 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:09:41.821 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:09:59.153 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:09:59.153 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:09:59.159 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:09:59.161 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:33.744 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:33.745 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:10:33.747 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:10:33.749 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:38.698 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:38.699 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:10:38.899 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:10:39.002 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:10:39.003 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:46.669 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:10:46.670 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:10:46.871 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:10:47.074 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:10:47.201 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:10:47.202 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:11:30.946 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330693 (::1) 1.44ms
+[I 18:11:30.953 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:11:30.954 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:11:30.965 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 12.38ms
+[D 18:13:31.040 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330694 (::1) 1.48ms
+[I 18:13:31.050 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:13:31.050 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:13:31.061 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 12.24ms
+[D 18:13:31.463 NotebookApp] 200 GET /api/sessions?_=1581462327138 (::1) 1.06ms
+[D 18:13:31.465 NotebookApp] 200 GET /api/terminals?_=1581462327139 (::1) 1.06ms
+[D 18:13:31.478 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327140 (::1) 3.50ms
+[D 18:13:34.322 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330695 (::1) 1.47ms
+[I 18:13:34.332 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:13:34.332 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:13:34.343 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 12.44ms
+[D 18:13:34.352 NotebookApp] 201 POST /api/contents/fb-messages/Untitled.ipynb/checkpoints (::1) 1.77ms
+[D 18:13:42.140 NotebookApp] 200 GET /api/contents/fb-messages/Untitled.ipynb?content=0&_=1581462330696 (::1) 1.30ms
+[I 18:13:42.148 NotebookApp] Saving file at /fb-messages/Untitled.ipynb
+[D 18:13:42.148 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/Untitled.ipynb
+[D 18:13:42.160 NotebookApp] 200 PUT /api/contents/fb-messages/Untitled.ipynb (::1) 13.43ms
+[D 18:13:42.168 NotebookApp] 201 POST /api/contents/fb-messages/Untitled.ipynb/checkpoints (::1) 1.60ms
+[D 18:13:44.184 NotebookApp] 200 GET /api/sessions?_=1581462327141 (::1) 1.34ms
+[D 18:13:44.186 NotebookApp] 200 GET /api/terminals?_=1581462327142 (::1) 1.20ms
+[D 18:13:44.194 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327143 (::1) 2.55ms
+[D 18:13:59.558 NotebookApp] Renaming checkpoint /Users/vibertthio/Documents/itp/MoL/fb-messages/.ipynb_checkpoints/Untitled-checkpoint.ipynb -> /Users/vibertthio/Documents/itp/MoL/fb-messages/.ipynb_checkpoints/parse_json_files-checkpoint.ipynb
+[D 18:13:59.559 NotebookApp] 200 PATCH /api/contents/fb-messages/Untitled.ipynb (::1) 2.06ms
+[D 18:13:59.606 NotebookApp] 200 PATCH /api/sessions/3b56a7c8-4d98-44f0-873b-289f3d7e19d0 (::1) 1.77ms
+[D 18:14:00.614 NotebookApp] 200 GET /api/sessions?_=1581462327144 (::1) 1.04ms
+[D 18:14:00.616 NotebookApp] 200 GET /api/terminals?_=1581462327145 (::1) 1.10ms
+[D 18:14:00.625 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327146 (::1) 2.21ms
+[D 18:14:29.323 NotebookApp] 200 GET /api/sessions?_=1581462327147 (::1) 1.11ms
+[D 18:14:29.325 NotebookApp] 200 GET /api/terminals?_=1581462327148 (::1) 0.89ms
+[D 18:14:29.334 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327149 (::1) 3.55ms
+[D 18:14:51.856 NotebookApp] 200 GET /api/sessions?_=1581462327150 (::1) 0.94ms
+[D 18:14:51.857 NotebookApp] 200 GET /api/terminals?_=1581462327151 (::1) 0.98ms
+[D 18:14:51.865 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327152 (::1) 1.70ms
+[D 18:15:18.674 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:15:18.675 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:15:18.792 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:15:18.795 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:15:31.033 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330697 (::1) 1.15ms
+[I 18:15:31.039 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:15:31.040 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:15:31.048 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 8.88ms
+[D 18:15:40.198 NotebookApp] 200 GET /api/sessions?_=1581462327153 (::1) 1.15ms
+[D 18:15:40.200 NotebookApp] 200 GET /api/terminals?_=1581462327154 (::1) 0.97ms
+[D 18:15:40.210 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327155 (::1) 3.08ms
+[D 18:15:44.344 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:15:44.345 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:15:44.461 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:15:44.464 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:16:24.864 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:16:24.865 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:16:24.985 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:16:24.988 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:16:37.229 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:16:37.229 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:16:37.349 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:16:37.352 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:17:23.299 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:17:23.300 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:17:23.413 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:17:23.414 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:17:30.932 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330698 (::1) 1.31ms
+[I 18:17:30.940 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:17:30.940 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:17:30.948 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 9.18ms
+[D 18:18:11.053 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:11.055 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:18:11.056 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:18:11.058 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:14.688 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:14.689 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:18:14.692 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:18:14.694 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:47.567 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:47.568 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:18:47.574 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:18:47.576 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:52.815 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:18:52.816 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:18:52.817 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:18:52.818 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:19:30.930 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330699 (::1) 1.40ms
+[I 18:19:30.938 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:19:30.938 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:19:30.945 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 8.66ms
+[D 18:20:51.625 NotebookApp] 200 GET /api/sessions?_=1581462327156 (::1) 2.03ms
+[D 18:20:51.627 NotebookApp] 200 GET /api/terminals?_=1581462327157 (::1) 1.25ms
+[D 18:20:51.645 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327158 (::1) 2.18ms
+[D 18:21:30.925 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330700 (::1) 1.25ms
+[I 18:21:30.931 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:21:30.931 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:21:30.940 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 9.00ms
+[D 18:22:20.838 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:22:20.838 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:22:21.865 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 0.87ms
+[D 18:22:22.273 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:22:22.274 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:22:48.626 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330701 (::1) 1.39ms
+[I 18:22:48.634 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:22:48.635 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:22:48.644 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.76ms
+[D 18:23:30.921 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330702 (::1) 1.40ms
+[I 18:23:30.929 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:23:30.929 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:23:30.939 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.58ms
+[D 18:23:44.240 NotebookApp] Path fonts/Merriweather-Regular.ttf served from /Users/vibertthio/.jupyter/custom/fonts/Merriweather-Regular.ttf
+[D 18:23:44.242 NotebookApp] 200 GET /custom/fonts/Merriweather-Regular.ttf (::1) 2.47ms
+[D 18:23:44.303 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js
+[D 18:23:44.305 NotebookApp] 200 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js?V=2.7.5 (::1) 3.75ms
+[D 18:23:44.334 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js
+[D 18:23:44.336 NotebookApp] 200 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js?V=2.7.5 (::1) 3.25ms
+[D 18:23:44.370 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff
+[D 18:23:44.371 NotebookApp] 200 GET /static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff?V=2.7.5 (::1) 1.98ms
+[D 18:23:44.418 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js
+[D 18:23:44.421 NotebookApp] 200 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js?V=2.7.5 (::1) 3.36ms
+[D 18:23:44.461 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff
+[D 18:23:44.463 NotebookApp] 200 GET /static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff?V=2.7.5 (::1) 2.19ms
+[D 18:24:35.182 NotebookApp] Path components/codemirror/mode/javascript/javascript.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/codemirror/mode/javascript/javascript.js
+[D 18:24:35.184 NotebookApp] 200 GET /static/components/codemirror/mode/javascript/javascript.js?v=20200211180415 (::1) 3.58ms
+[D 18:25:30.926 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330703 (::1) 1.11ms
+[I 18:25:30.934 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:25:30.934 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:25:30.945 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 11.92ms
+[D 18:26:30.214 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:26:30.215 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:26:31.223 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 0.95ms
+[D 18:26:31.717 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:26:31.719 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:26:49.571 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:26:49.573 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:26:50.467 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:26:50.469 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:10.926 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:10.927 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:27:11.840 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:27:11.843 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:20.585 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:20.586 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:27:21.468 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:27:21.471 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:26.793 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:26.794 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:27:27.709 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:27:27.711 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:30.913 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330704 (::1) 1.63ms
+[I 18:27:30.921 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:27:30.921 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:27:30.931 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 11.17ms
+[D 18:27:41.233 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:41.234 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:27:42.154 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:27:42.156 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:46.671 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:27:46.672 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:27:47.612 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:27:47.614 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:29:14.237 NotebookApp] 200 GET /api/sessions?_=1581462327159 (::1) 0.96ms
+[D 18:29:14.241 NotebookApp] 200 GET /api/terminals?_=1581462327160 (::1) 0.99ms
+[D 18:29:14.248 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327161 (::1) 1.64ms
+[D 18:29:30.905 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330705 (::1) 1.29ms
+[I 18:29:30.913 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:29:30.913 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:29:30.921 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 9.72ms
+[D 18:30:11.966 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:30:11.967 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:30:11.968 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:30:11.970 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:31:03.613 NotebookApp] 200 GET /api/sessions?_=1581462327162 (::1) 0.97ms
+[D 18:31:03.614 NotebookApp] 200 GET /api/terminals?_=1581462327163 (::1) 0.74ms
+[D 18:31:03.624 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327164 (::1) 1.92ms
+[D 18:31:10.179 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:31:10.179 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:31:10.184 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:31:10.186 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:31:25.595 NotebookApp] 200 GET /api/sessions?_=1581462327165 (::1) 2.36ms
+[D 18:31:25.597 NotebookApp] 200 GET /api/terminals?_=1581462327166 (::1) 1.09ms
+[D 18:31:25.612 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327167 (::1) 2.13ms
+[D 18:31:30.999 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330706 (::1) 1.17ms
+[I 18:31:31.006 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:31:31.007 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:31:31.016 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.31ms
+[D 18:32:34.507 NotebookApp] 200 GET /api/sessions?_=1581462327168 (::1) 1.30ms
+[D 18:32:34.509 NotebookApp] 200 GET /api/terminals?_=1581462327169 (::1) 1.06ms
+[D 18:32:34.516 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327170 (::1) 1.69ms
+[D 18:32:41.546 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:32:41.547 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:32:41.552 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:32:41.554 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:33:30.998 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330707 (::1) 1.45ms
+[I 18:33:31.005 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:33:31.005 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:33:31.015 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.52ms
+[D 18:35:45.454 NotebookApp] 200 GET /api/sessions?_=1581462327171 (::1) 1.64ms
+[D 18:35:45.456 NotebookApp] 200 GET /api/terminals?_=1581462327172 (::1) 0.95ms
+[D 18:35:45.473 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327173 (::1) 2.49ms
+[D 18:35:55.877 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:35:55.877 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:35:55.882 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 18:35:55.884 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:36:04.234 NotebookApp] 200 GET /api/sessions?_=1581462327174 (::1) 0.98ms
+[D 18:36:04.236 NotebookApp] 200 GET /api/terminals?_=1581462327175 (::1) 0.96ms
+[D 18:36:04.243 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327176 (::1) 1.75ms
+[D 18:37:30.992 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330708 (::1) 1.37ms
+[I 18:37:30.999 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:37:30.999 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:37:31.010 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 11.37ms
+[D 18:37:40.038 NotebookApp] 200 GET /api/sessions?_=1581462327177 (::1) 1.16ms
+[D 18:37:40.040 NotebookApp] 200 GET /api/terminals?_=1581462327178 (::1) 0.89ms
+[D 18:37:40.048 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327179 (::1) 2.33ms
+[D 18:37:46.085 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:37:46.087 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:37:46.087 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:37:46.090 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:38:11.076 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:38:11.078 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:38:11.078 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:38:11.081 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:38:59.125 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330709 (::1) 1.25ms
+[I 18:38:59.132 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:38:59.132 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:38:59.142 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.43ms
+[D 18:38:59.151 NotebookApp] 201 POST /api/contents/fb-messages/parse_json_files.ipynb/checkpoints (::1) 1.90ms
+[D 18:38:59.740 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:38:59.741 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:39:00.747 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 0.88ms
+[D 18:39:01.149 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:39:01.152 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:39:30.995 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330710 (::1) 1.43ms
+[I 18:39:31.002 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:39:31.003 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:39:31.011 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 9.92ms
+[D 18:40:51.709 NotebookApp] 200 GET /api/sessions?_=1581462327180 (::1) 1.29ms
+[D 18:40:51.712 NotebookApp] 200 GET /api/terminals?_=1581462327181 (::1) 0.65ms
+[D 18:40:51.721 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327182 (::1) 1.57ms
+[D 18:41:00.997 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:00.998 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:41:00.999 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:41:01.001 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:16.306 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:16.307 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:41:16.308 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:41:16.310 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:17.597 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:17.598 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 18:41:17.599 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 18:41:17.601 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 18:41:30.888 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330711 (::1) 1.13ms
+[I 18:41:30.895 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:41:30.895 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:41:30.905 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 10.85ms
+[D 18:57:30.868 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330712 (::1) 1.24ms
+[I 18:57:30.879 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:57:30.879 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:57:30.891 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 13.50ms
+[D 18:57:40.617 NotebookApp] 200 GET /api/sessions?_=1581462327183 (::1) 1.16ms
+[D 18:57:40.618 NotebookApp] 200 GET /api/terminals?_=1581462327184 (::1) 1.09ms
+[D 18:57:40.628 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327185 (::1) 1.95ms
+[D 18:59:30.855 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330713 (::1) 1.35ms
+[I 18:59:30.862 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 18:59:30.862 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 18:59:30.873 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 11.42ms
+[D 19:01:30.861 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330714 (::1) 1.25ms
+[I 19:01:30.869 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:01:30.869 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:01:30.883 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 14.61ms
+[D 19:01:34.829 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:01:34.830 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:01:35.843 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:01:35.846 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:01:35.848 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 1.50ms
+[D 19:02:22.800 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:02:22.803 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:02:22.805 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:02:22.806 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:03:30.848 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330715 (::1) 1.43ms
+[I 19:03:30.856 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:03:30.856 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:03:30.866 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 11.08ms
+[D 19:03:47.392 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:03:47.392 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:03:47.621 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:03:47.624 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:03:54.165 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:03:54.166 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:03:54.167 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:03:54.169 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:05.921 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:05.923 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:05:05.923 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:05:05.925 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:09.560 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:09.561 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:05:09.567 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:05:09.569 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:20.057 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:20.079 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:05:20.092 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:05:20.094 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:30.839 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330716 (::1) 1.38ms
+[I 19:05:30.847 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:05:30.847 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:05:30.859 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 12.59ms
+[D 19:05:45.866 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:45.867 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:05:46.764 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:05:46.766 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:48.446 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:05:48.447 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:05:48.448 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:05:48.450 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:06:37.812 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:06:37.814 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:06:37.819 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:06:37.821 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:07:30.944 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330717 (::1) 1.10ms
+[I 19:07:30.953 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:07:30.953 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:07:30.964 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 12.08ms
+[D 19:07:52.920 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:07:52.921 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:07:52.927 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:07:52.930 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:08:20.175 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:08:20.177 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:08:20.181 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:08:20.183 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:08:20.185 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:30.833 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330718 (::1) 1.38ms
+[I 19:09:30.841 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:09:30.841 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:09:30.853 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 13.11ms
+[D 19:09:32.694 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:32.694 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:09:33.702 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 1.09ms
+[D 19:09:33.704 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:33.706 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:37.033 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:37.034 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:09:37.036 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:37.037 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:38.051 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:38.051 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:09:38.256 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:38.322 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:38.327 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:52.770 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:09:52.775 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:09:52.978 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:53.040 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:09:53.053 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:10:39.202 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:10:39.203 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:10:40.141 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:10:40.144 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:10:44.143 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:10:44.144 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:10:44.145 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:10:44.147 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:11:30.927 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330719 (::1) 1.41ms
+[I 19:11:30.936 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:11:30.936 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:11:30.952 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 18.28ms
+[D 19:12:46.427 NotebookApp] 200 GET /api/sessions?_=1581462327186 (::1) 1.36ms
+[D 19:12:46.429 NotebookApp] 200 GET /api/terminals?_=1581462327187 (::1) 1.14ms
+[D 19:12:46.442 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327188 (::1) 1.69ms
+[D 19:13:30.824 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330720 (::1) 1.34ms
+[I 19:13:30.833 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:13:30.833 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:13:30.850 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 18.63ms
+[D 19:13:43.675 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:13:43.675 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:13:43.677 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:13:51.429 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:13:51.430 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:13:51.432 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_result
+[D 19:13:51.432 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:12.984 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:12.985 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:14.000 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 1.23ms
+[D 19:14:14.082 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:14.085 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:24.132 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:24.133 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:24.166 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:24.166 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: error
+[D 19:14:24.169 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:34.884 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:34.885 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:35.866 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:35.869 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:35.874 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:35.876 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:35.878 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:35.879 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:36.446 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:36.451 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:36.654 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:36.700 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:14:36.708 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:48.161 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:14:48.168 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:14:49.168 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 1.53ms
+[D 19:14:49.521 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_result
+[D 19:14:49.524 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:15:09.846 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:15:09.848 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:15:09.850 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_result
+[D 19:15:09.856 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:15:30.827 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330721 (::1) 2.49ms
+[I 19:15:30.837 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:15:30.837 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:15:30.863 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 28.09ms
+[D 19:16:41.810 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:16:41.811 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:16:41.812 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:16:41.814 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:17:29.122 NotebookApp] 200 GET /api/sessions?_=1581462327189 (::1) 0.99ms
+[D 19:17:29.123 NotebookApp] 200 GET /api/terminals?_=1581462327190 (::1) 0.75ms
+[D 19:17:29.150 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327191 (::1) 1.76ms
+[D 19:17:30.920 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330722 (::1) 1.20ms
+[I 19:17:30.929 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:17:30.929 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:17:30.948 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 20.45ms
+[D 19:17:53.507 NotebookApp] 200 GET /api/sessions?_=1581462327192 (::1) 1.12ms
+[D 19:17:53.509 NotebookApp] 200 GET /api/terminals?_=1581462327193 (::1) 0.99ms
+[D 19:17:53.519 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327194 (::1) 1.92ms
+[D 19:18:10.536 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330723 (::1) 1.13ms
+[I 19:18:10.545 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:18:10.545 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:18:10.564 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 21.02ms
+[D 19:18:10.577 NotebookApp] 201 POST /api/contents/fb-messages/parse_json_files.ipynb/checkpoints (::1) 2.23ms
+[D 19:18:10.939 NotebookApp] 200 GET /api/sessions?_=1581462327195 (::1) 1.28ms
+[D 19:18:10.941 NotebookApp] 200 GET /api/terminals?_=1581462327196 (::1) 0.89ms
+[D 19:18:10.948 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327197 (::1) 2.84ms
+[D 19:18:15.832 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327198 (::1) 3.06ms
+[D 19:18:21.288 NotebookApp] Using contents: services/contents
+[D 19:18:21.305 NotebookApp] Path base/images/favicon-file.ico served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/base/images/favicon-file.ico
+[D 19:18:21.306 NotebookApp] Path components/codemirror/addon/dialog/dialog.css served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/codemirror/addon/dialog/dialog.css
+[D 19:18:21.307 NotebookApp] Path edit/js/main.min.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/edit/js/main.min.js
+[D 19:18:21.312 NotebookApp] 200 GET /edit/start.sh (::1) 25.92ms
+[D 19:18:21.380 NotebookApp] 200 GET /static/components/codemirror/addon/dialog/dialog.css?v=c89dce10b44d2882a024e7befc2b63f5 (::1) 1.72ms
+[D 19:18:21.383 NotebookApp] 304 GET /custom/custom.css (::1) 1.76ms
+[D 19:18:21.557 NotebookApp] 200 GET /static/edit/js/main.min.js?v=d52f7cc935e2b6bf0a01c88ae4487399 (::1) 167.05ms
+[D 19:18:21.678 NotebookApp] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[D 19:18:21.678 NotebookApp] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[D 19:18:21.679 NotebookApp] Paths used for configuration of edit: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/edit.json
+[D 19:18:21.680 NotebookApp] Paths used for configuration of edit: 
+    	/Users/vibertthio/.jupyter/nbconfig/edit.json
+[D 19:18:21.681 NotebookApp] 200 GET /api/config/edit?_=1581466701614 (::1) 4.25ms
+[D 19:18:21.683 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 19:18:21.684 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 19:18:21.684 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/etc/jupyter/nbconfig/common.json
+[D 19:18:21.684 NotebookApp] Paths used for configuration of common: 
+    	/Users/vibertthio/.jupyter/nbconfig/common.json
+[D 19:18:21.685 NotebookApp] 200 GET /api/config/common?_=1581466701615 (::1) 3.04ms
+[D 19:18:21.708 NotebookApp] 200 GET /api/contents/start.sh?type=file&format=text&_=1581466701616 (::1) 2.08ms
+[D 19:18:21.711 NotebookApp] 304 GET /custom/fonts/roboto.ttf (::1) 1.22ms
+[D 19:18:21.713 NotebookApp] 304 GET /custom/fonts/pt-sans-regular.ttf (::1) 0.91ms
+[D 19:18:21.736 NotebookApp] 304 GET /custom/custom.js?v=20200211180415 (::1) 1.92ms
+[D 19:18:21.783 NotebookApp] Path components/codemirror/mode/shell/shell.js served from /Users/vibertthio/.pyenv/versions/3.6.6/envs/trade/lib/python3.6/site-packages/notebook/static/components/codemirror/mode/shell/shell.js
+[D 19:18:21.784 NotebookApp] 200 GET /static/components/codemirror/mode/shell/shell.js?v=20200211180415 (::1) 1.82ms
+[D 19:18:21.836 NotebookApp] 200 GET /static/base/images/favicon-file.ico?v=e2776a7f45692c839d6eea7d7ff6f3b2 (::1) 1.86ms
+[D 19:18:23.790 NotebookApp] 200 GET /api/sessions?_=1581462327199 (::1) 0.99ms
+[D 19:18:23.791 NotebookApp] 200 GET /api/terminals?_=1581462327200 (::1) 0.94ms
+[D 19:18:23.799 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327201 (::1) 2.90ms
+[D 19:18:25.146 NotebookApp] 200 GET /api/contents/fb-messages?type=directory&_=1581462327202 (::1) 1.97ms
+[D 19:18:25.864 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327203 (::1) 2.59ms
+[D 19:18:34.299 NotebookApp] 200 GET /api/sessions?_=1581462327204 (::1) 1.52ms
+[D 19:18:34.301 NotebookApp] 200 GET /api/terminals?_=1581462327205 (::1) 0.99ms
+[D 19:18:34.318 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327206 (::1) 3.86ms
+[D 19:18:37.278 NotebookApp] 304 GET /custom/fonts/Merriweather-Regular.ttf (::1) 0.98ms
+[D 19:18:37.283 NotebookApp] 304 GET /custom/fonts/roboto-italic.ttf (::1) 1.00ms
+[D 19:19:30.822 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330724 (::1) 1.17ms
+[I 19:19:30.837 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:19:30.837 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:19:30.857 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 21.46ms
+[D 19:19:34.113 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:34.114 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:19:35.122 NotebookApp] 304 GET /static/base/images/favicon-busy-1.ico (::1) 0.94ms
+[D 19:19:35.551 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:19:35.553 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:35.557 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:35.559 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:19:35.560 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:19:35.562 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:35.576 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:35.577 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:19:35.579 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:36.133 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:19:36.135 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: execute_input
+[D 19:19:36.137 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: stream
+[D 19:19:36.138 NotebookApp] activity on 627461f9-3597-4c4e-9feb-6a2aeb688031: status
+[D 19:20:03.012 NotebookApp] 200 GET /api/sessions?_=1581462327207 (::1) 0.94ms
+[D 19:20:03.014 NotebookApp] 200 GET /api/terminals?_=1581462327208 (::1) 1.10ms
+[D 19:20:03.022 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327209 (::1) 3.82ms
+[D 19:21:30.819 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330725 (::1) 1.14ms
+[I 19:21:30.829 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:21:30.829 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:21:30.843 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 15.73ms
+[D 19:22:02.227 NotebookApp] 200 GET /api/sessions?_=1581462327210 (::1) 1.38ms
+[D 19:22:02.229 NotebookApp] 200 GET /api/terminals?_=1581462327211 (::1) 0.97ms
+[D 19:22:02.242 NotebookApp] 200 GET /api/contents?type=directory&_=1581462327212 (::1) 4.35ms
+[D 19:23:30.884 NotebookApp] 200 GET /api/contents/fb-messages/parse_json_files.ipynb?content=0&_=1581462330726 (::1) 1.21ms
+[I 19:23:30.892 NotebookApp] Saving file at /fb-messages/parse_json_files.ipynb
+[D 19:23:30.892 NotebookApp] Saving /Users/vibertthio/Documents/itp/MoL/fb-messages/parse_json_files.ipynb
+[D 19:23:30.906 NotebookApp] 200 PUT /api/contents/fb-messages/parse_json_files.ipynb (::1) 14.45ms
